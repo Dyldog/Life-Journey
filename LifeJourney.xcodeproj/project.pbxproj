@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC01CFBA18544215002739E1 /* UIColor+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = FC01CFB918544215002739E1 /* UIColor+Extras.m */; };
+		FC01CFBE1854475C002739E1 /* LJStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC01CFBD1854475C002739E1 /* LJStepView.m */; };
+		FC140774184DD28000A341FB /* LJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC140773184DD28000A341FB /* LJBaseViewController.m */; };
+		FC140778184DDBB600A341FB /* UIView+FrameAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC140777184DDBB600A341FB /* UIView+FrameAdditions.m */; };
+		FC14077C184DDD5D00A341FB /* UIScrollView+FrameAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC14077B184DDD5D00A341FB /* UIScrollView+FrameAdditions.m */; };
+		FC1701BF1848315B005D57CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1701BE1848315B005D57CB /* Foundation.framework */; };
+		FC1701C11848315B005D57CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1701C01848315B005D57CB /* CoreGraphics.framework */; };
+		FC1701C31848315B005D57CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1701C21848315B005D57CB /* UIKit.framework */; };
+		FC1701C51848315B005D57CB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1701C41848315B005D57CB /* CoreData.framework */; };
+		FC1701CB1848315B005D57CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC1701C91848315B005D57CB /* InfoPlist.strings */; };
+		FC1701CD1848315B005D57CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1701CC1848315B005D57CB /* main.m */; };
+		FC1701D11848315B005D57CB /* LJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1701D01848315B005D57CB /* LJAppDelegate.m */; };
+		FC1701D41848315B005D57CB /* LifeJourney.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC1701D21848315B005D57CB /* LifeJourney.xcdatamodeld */; };
+		FC1701D61848315B005D57CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1701D51848315B005D57CB /* Images.xcassets */; };
+		FC1701DD1848315B005D57CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1701DC1848315B005D57CB /* XCTest.framework */; };
+		FC1701DE1848315B005D57CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1701BE1848315B005D57CB /* Foundation.framework */; };
+		FC1701DF1848315B005D57CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1701C21848315B005D57CB /* UIKit.framework */; };
+		FC1701E01848315B005D57CB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1701C41848315B005D57CB /* CoreData.framework */; };
+		FC1701E81848315B005D57CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC1701E61848315B005D57CB /* InfoPlist.strings */; };
+		FC1701EA1848315B005D57CB /* LifeJourneyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1701E91848315B005D57CB /* LifeJourneyTests.m */; };
+		FC63188E18854C8700DC2DB4 /* LJToolSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC63188D18854C8700DC2DB4 /* LJToolSelectViewController.m */; };
+		FC87516318FCD75A00994C86 /* LJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FC87516218FCD75A00994C86 /* LJTool.m */; };
+		FC87516618FCD79400994C86 /* LJStep.m in Sources */ = {isa = PBXBuildFile; fileRef = FC87516518FCD79400994C86 /* LJStep.m */; };
+		FCCEAA7B185429E80036601E /* Tools.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCCEAA7A185429E80036601E /* Tools.plist */; };
+		FCD844C318FCE660002AF569 /* ToolTemplates.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCD844C218FCE660002AF569 /* ToolTemplates.plist */; };
+		FCD844C518FCE6FD002AF569 /* ToolsTwo.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCD844C418FCE6FD002AF569 /* ToolsTwo.plist */; };
+		FCD844C818FCF2D9002AF569 /* LJReadStep.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD844C718FCF2D9002AF569 /* LJReadStep.m */; };
+		FCD844CB18FCF2E4002AF569 /* LJWriteStep.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD844CA18FCF2E4002AF569 /* LJWriteStep.m */; };
+		FCD844CE18FCF314002AF569 /* LJSelectListStep.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD844CD18FCF314002AF569 /* LJSelectListStep.m */; };
+		FCD844D118FCF504002AF569 /* LJStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD844D018FCF504002AF569 /* LJStepViewController.m */; };
+		FCD844D418FCF569002AF569 /* LJReadStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD844D318FCF569002AF569 /* LJReadStepView.m */; };
+		FCD844D718FCF5D4002AF569 /* LJWriteStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD844D618FCF5D4002AF569 /* LJWriteStepView.m */; };
+		FCD844DA18FCFA19002AF569 /* LJStepNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD844D918FCFA19002AF569 /* LJStepNavigationController.m */; };
+		FCD844DD18FD0170002AF569 /* LJSelectListStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD844DC18FD0170002AF569 /* LJSelectListStepView.m */; };
+		FCE17C6918FD11F900BAC53D /* UIFont+LJFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE17C6818FD11F900BAC53D /* UIFont+LJFonts.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC1701E11848315B005D57CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1701B31848315B005D57CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC1701BA1848315B005D57CB;
+			remoteInfo = LifeJourney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC01CFB818544215002739E1 /* UIColor+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extras.h"; path = "Categories/UIColor+Extras.h"; sourceTree = "<group>"; };
+		FC01CFB918544215002739E1 /* UIColor+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extras.m"; path = "Categories/UIColor+Extras.m"; sourceTree = "<group>"; };
+		FC01CFBC1854475C002739E1 /* LJStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LJStepView.h; path = Views/LJStepView.h; sourceTree = "<group>"; };
+		FC01CFBD1854475C002739E1 /* LJStepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LJStepView.m; path = Views/LJStepView.m; sourceTree = "<group>"; };
+		FC140772184DD28000A341FB /* LJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJBaseViewController.h; sourceTree = "<group>"; };
+		FC140773184DD28000A341FB /* LJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJBaseViewController.m; sourceTree = "<group>"; };
+		FC140776184DDBB600A341FB /* UIView+FrameAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+FrameAdditions.h"; path = "Categories/UIView+FrameAdditions.h"; sourceTree = "<group>"; };
+		FC140777184DDBB600A341FB /* UIView+FrameAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FrameAdditions.m"; path = "Categories/UIView+FrameAdditions.m"; sourceTree = "<group>"; };
+		FC14077A184DDD5D00A341FB /* UIScrollView+FrameAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+FrameAdditions.h"; path = "Categories/UIScrollView+FrameAdditions.h"; sourceTree = "<group>"; };
+		FC14077B184DDD5D00A341FB /* UIScrollView+FrameAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+FrameAdditions.m"; path = "Categories/UIScrollView+FrameAdditions.m"; sourceTree = "<group>"; };
+		FC1701BB1848315B005D57CB /* LifeJourney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeJourney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1701BE1848315B005D57CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC1701C01848315B005D57CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC1701C21848315B005D57CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC1701C41848315B005D57CB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FC1701C81848315B005D57CB /* LifeJourney-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LifeJourney-Info.plist"; sourceTree = "<group>"; };
+		FC1701CA1848315B005D57CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC1701CC1848315B005D57CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC1701CE1848315B005D57CB /* LifeJourney-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LifeJourney-Prefix.pch"; sourceTree = "<group>"; };
+		FC1701CF1848315B005D57CB /* LJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LJAppDelegate.h; path = Classes/LJAppDelegate.h; sourceTree = "<group>"; };
+		FC1701D01848315B005D57CB /* LJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LJAppDelegate.m; path = Classes/LJAppDelegate.m; sourceTree = "<group>"; };
+		FC1701D31848315B005D57CB /* LifeJourney.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LifeJourney.xcdatamodel; sourceTree = "<group>"; };
+		FC1701D51848315B005D57CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC1701DB1848315B005D57CB /* LifeJourneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeJourneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1701DC1848315B005D57CB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC1701E51848315B005D57CB /* LifeJourneyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LifeJourneyTests-Info.plist"; sourceTree = "<group>"; };
+		FC1701E71848315B005D57CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC1701E91848315B005D57CB /* LifeJourneyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeJourneyTests.m; sourceTree = "<group>"; };
+		FC63188C18854C8700DC2DB4 /* LJToolSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJToolSelectViewController.h; sourceTree = "<group>"; };
+		FC63188D18854C8700DC2DB4 /* LJToolSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJToolSelectViewController.m; sourceTree = "<group>"; };
+		FC87516118FCD75A00994C86 /* LJTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTool.h; sourceTree = "<group>"; };
+		FC87516218FCD75A00994C86 /* LJTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTool.m; sourceTree = "<group>"; };
+		FC87516418FCD79400994C86 /* LJStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJStep.h; sourceTree = "<group>"; };
+		FC87516518FCD79400994C86 /* LJStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJStep.m; sourceTree = "<group>"; };
+		FCCEAA7A185429E80036601E /* Tools.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tools.plist; sourceTree = "<group>"; };
+		FCD844C218FCE660002AF569 /* ToolTemplates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToolTemplates.plist; sourceTree = "<group>"; };
+		FCD844C418FCE6FD002AF569 /* ToolsTwo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToolsTwo.plist; sourceTree = "<group>"; };
+		FCD844C618FCF2D9002AF569 /* LJReadStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJReadStep.h; sourceTree = "<group>"; };
+		FCD844C718FCF2D9002AF569 /* LJReadStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJReadStep.m; sourceTree = "<group>"; };
+		FCD844C918FCF2E4002AF569 /* LJWriteStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJWriteStep.h; sourceTree = "<group>"; };
+		FCD844CA18FCF2E4002AF569 /* LJWriteStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJWriteStep.m; sourceTree = "<group>"; };
+		FCD844CC18FCF314002AF569 /* LJSelectListStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJSelectListStep.h; sourceTree = "<group>"; };
+		FCD844CD18FCF314002AF569 /* LJSelectListStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJSelectListStep.m; sourceTree = "<group>"; };
+		FCD844CF18FCF504002AF569 /* LJStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJStepViewController.h; sourceTree = "<group>"; };
+		FCD844D018FCF504002AF569 /* LJStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJStepViewController.m; sourceTree = "<group>"; };
+		FCD844D218FCF569002AF569 /* LJReadStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LJReadStepView.h; path = Views/LJReadStepView.h; sourceTree = "<group>"; };
+		FCD844D318FCF569002AF569 /* LJReadStepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LJReadStepView.m; path = Views/LJReadStepView.m; sourceTree = "<group>"; };
+		FCD844D518FCF5D4002AF569 /* LJWriteStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LJWriteStepView.h; path = Views/LJWriteStepView.h; sourceTree = "<group>"; };
+		FCD844D618FCF5D4002AF569 /* LJWriteStepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LJWriteStepView.m; path = Views/LJWriteStepView.m; sourceTree = "<group>"; };
+		FCD844D818FCFA19002AF569 /* LJStepNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJStepNavigationController.h; sourceTree = "<group>"; };
+		FCD844D918FCFA19002AF569 /* LJStepNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJStepNavigationController.m; sourceTree = "<group>"; };
+		FCD844DB18FD0170002AF569 /* LJSelectListStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LJSelectListStepView.h; path = Views/LJSelectListStepView.h; sourceTree = "<group>"; };
+		FCD844DC18FD0170002AF569 /* LJSelectListStepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LJSelectListStepView.m; path = Views/LJSelectListStepView.m; sourceTree = "<group>"; };
+		FCE17C6718FD11F900BAC53D /* UIFont+LJFonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+LJFonts.h"; path = "Categories/UIFont+LJFonts.h"; sourceTree = "<group>"; };
+		FCE17C6818FD11F900BAC53D /* UIFont+LJFonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+LJFonts.m"; path = "Categories/UIFont+LJFonts.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC1701B81848315B005D57CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1701C11848315B005D57CB /* CoreGraphics.framework in Frameworks */,
+				FC1701C51848315B005D57CB /* CoreData.framework in Frameworks */,
+				FC1701C31848315B005D57CB /* UIKit.framework in Frameworks */,
+				FC1701BF1848315B005D57CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1701D81848315B005D57CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1701DD1848315B005D57CB /* XCTest.framework in Frameworks */,
+				FC1701E01848315B005D57CB /* CoreData.framework in Frameworks */,
+				FC1701DF1848315B005D57CB /* UIKit.framework in Frameworks */,
+				FC1701DE1848315B005D57CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC01CFBB1854473F002739E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC01CFBC1854475C002739E1 /* LJStepView.h */,
+				FC01CFBD1854475C002739E1 /* LJStepView.m */,
+				FCD844D218FCF569002AF569 /* LJReadStepView.h */,
+				FCD844D318FCF569002AF569 /* LJReadStepView.m */,
+				FCD844D518FCF5D4002AF569 /* LJWriteStepView.h */,
+				FCD844D618FCF5D4002AF569 /* LJWriteStepView.m */,
+				FCD844DB18FD0170002AF569 /* LJSelectListStepView.h */,
+				FCD844DC18FD0170002AF569 /* LJSelectListStepView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FC140751184DC9D700A341FB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC87516018FCD74F00994C86 /* Models */,
+				FC01CFBB1854473F002739E1 /* Views */,
+				FC140752184DC9D700A341FB /* View Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FC140752184DC9D700A341FB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC140772184DD28000A341FB /* LJBaseViewController.h */,
+				FC140773184DD28000A341FB /* LJBaseViewController.m */,
+				FC63188C18854C8700DC2DB4 /* LJToolSelectViewController.h */,
+				FC63188D18854C8700DC2DB4 /* LJToolSelectViewController.m */,
+				FCD844D818FCFA19002AF569 /* LJStepNavigationController.h */,
+				FCD844D918FCFA19002AF569 /* LJStepNavigationController.m */,
+				FCD844CF18FCF504002AF569 /* LJStepViewController.h */,
+				FCD844D018FCF504002AF569 /* LJStepViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FC140775184DD33F00A341FB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FCE17C6718FD11F900BAC53D /* UIFont+LJFonts.h */,
+				FCE17C6818FD11F900BAC53D /* UIFont+LJFonts.m */,
+				FC140776184DDBB600A341FB /* UIView+FrameAdditions.h */,
+				FC140777184DDBB600A341FB /* UIView+FrameAdditions.m */,
+				FC14077A184DDD5D00A341FB /* UIScrollView+FrameAdditions.h */,
+				FC14077B184DDD5D00A341FB /* UIScrollView+FrameAdditions.m */,
+				FC01CFB818544215002739E1 /* UIColor+Extras.h */,
+				FC01CFB918544215002739E1 /* UIColor+Extras.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		FC1701B21848315B005D57CB = {
+			isa = PBXGroup;
+			children = (
+				FC1701C61848315B005D57CB /* LifeJourney */,
+				FC1701E31848315B005D57CB /* LifeJourneyTests */,
+				FC1701BD1848315B005D57CB /* Frameworks */,
+				FC1701BC1848315B005D57CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC1701BC1848315B005D57CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC1701BB1848315B005D57CB /* LifeJourney.app */,
+				FC1701DB1848315B005D57CB /* LifeJourneyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC1701BD1848315B005D57CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC1701BE1848315B005D57CB /* Foundation.framework */,
+				FC1701C01848315B005D57CB /* CoreGraphics.framework */,
+				FC1701C21848315B005D57CB /* UIKit.framework */,
+				FC1701C41848315B005D57CB /* CoreData.framework */,
+				FC1701DC1848315B005D57CB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC1701C61848315B005D57CB /* LifeJourney */ = {
+			isa = PBXGroup;
+			children = (
+				FC1701CF1848315B005D57CB /* LJAppDelegate.h */,
+				FC1701D01848315B005D57CB /* LJAppDelegate.m */,
+				FC140775184DD33F00A341FB /* Categories */,
+				FC140751184DC9D700A341FB /* Classes */,
+				FC1701D51848315B005D57CB /* Images.xcassets */,
+				FC1701D21848315B005D57CB /* LifeJourney.xcdatamodeld */,
+				FC1701C71848315B005D57CB /* Supporting Files */,
+			);
+			path = LifeJourney;
+			sourceTree = "<group>";
+		};
+		FC1701C71848315B005D57CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC1701C81848315B005D57CB /* LifeJourney-Info.plist */,
+				FC1701C91848315B005D57CB /* InfoPlist.strings */,
+				FC1701CC1848315B005D57CB /* main.m */,
+				FC1701CE1848315B005D57CB /* LifeJourney-Prefix.pch */,
+				FCCEAA7A185429E80036601E /* Tools.plist */,
+				FCD844C418FCE6FD002AF569 /* ToolsTwo.plist */,
+				FCD844C218FCE660002AF569 /* ToolTemplates.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC1701E31848315B005D57CB /* LifeJourneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC1701E91848315B005D57CB /* LifeJourneyTests.m */,
+				FC1701E41848315B005D57CB /* Supporting Files */,
+			);
+			path = LifeJourneyTests;
+			sourceTree = "<group>";
+		};
+		FC1701E41848315B005D57CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC1701E51848315B005D57CB /* LifeJourneyTests-Info.plist */,
+				FC1701E61848315B005D57CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC87516018FCD74F00994C86 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC87516118FCD75A00994C86 /* LJTool.h */,
+				FC87516218FCD75A00994C86 /* LJTool.m */,
+				FC87516418FCD79400994C86 /* LJStep.h */,
+				FC87516518FCD79400994C86 /* LJStep.m */,
+				FCD844C618FCF2D9002AF569 /* LJReadStep.h */,
+				FCD844C718FCF2D9002AF569 /* LJReadStep.m */,
+				FCD844C918FCF2E4002AF569 /* LJWriteStep.h */,
+				FCD844CA18FCF2E4002AF569 /* LJWriteStep.m */,
+				FCD844CC18FCF314002AF569 /* LJSelectListStep.h */,
+				FCD844CD18FCF314002AF569 /* LJSelectListStep.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC1701BA1848315B005D57CB /* LifeJourney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1701ED1848315B005D57CB /* Build configuration list for PBXNativeTarget "LifeJourney" */;
+			buildPhases = (
+				FC1701B71848315B005D57CB /* Sources */,
+				FC1701B81848315B005D57CB /* Frameworks */,
+				FC1701B91848315B005D57CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeJourney;
+			productName = LifeJourney;
+			productReference = FC1701BB1848315B005D57CB /* LifeJourney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC1701DA1848315B005D57CB /* LifeJourneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1701F01848315B005D57CB /* Build configuration list for PBXNativeTarget "LifeJourneyTests" */;
+			buildPhases = (
+				FC1701D71848315B005D57CB /* Sources */,
+				FC1701D81848315B005D57CB /* Frameworks */,
+				FC1701D91848315B005D57CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC1701E21848315B005D57CB /* PBXTargetDependency */,
+			);
+			name = LifeJourneyTests;
+			productName = LifeJourneyTests;
+			productReference = FC1701DB1848315B005D57CB /* LifeJourneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC1701B31848315B005D57CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LJ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Dylan Elliott";
+				TargetAttributes = {
+					FC1701DA1848315B005D57CB = {
+						TestTargetID = FC1701BA1848315B005D57CB;
+					};
+				};
+			};
+			buildConfigurationList = FC1701B61848315B005D57CB /* Build configuration list for PBXProject "LifeJourney" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC1701B21848315B005D57CB;
+			productRefGroup = FC1701BC1848315B005D57CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC1701BA1848315B005D57CB /* LifeJourney */,
+				FC1701DA1848315B005D57CB /* LifeJourneyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC1701B91848315B005D57CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCEAA7B185429E80036601E /* Tools.plist in Resources */,
+				FC1701CB1848315B005D57CB /* InfoPlist.strings in Resources */,
+				FCD844C318FCE660002AF569 /* ToolTemplates.plist in Resources */,
+				FCD844C518FCE6FD002AF569 /* ToolsTwo.plist in Resources */,
+				FC1701D61848315B005D57CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1701D91848315B005D57CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1701E81848315B005D57CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC1701B71848315B005D57CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC140778184DDBB600A341FB /* UIView+FrameAdditions.m in Sources */,
+				FCD844DD18FD0170002AF569 /* LJSelectListStepView.m in Sources */,
+				FCD844C818FCF2D9002AF569 /* LJReadStep.m in Sources */,
+				FC01CFBA18544215002739E1 /* UIColor+Extras.m in Sources */,
+				FC14077C184DDD5D00A341FB /* UIScrollView+FrameAdditions.m in Sources */,
+				FCD844D418FCF569002AF569 /* LJReadStepView.m in Sources */,
+				FCD844CE18FCF314002AF569 /* LJSelectListStep.m in Sources */,
+				FCD844D118FCF504002AF569 /* LJStepViewController.m in Sources */,
+				FC63188E18854C8700DC2DB4 /* LJToolSelectViewController.m in Sources */,
+				FCD844DA18FCFA19002AF569 /* LJStepNavigationController.m in Sources */,
+				FC87516618FCD79400994C86 /* LJStep.m in Sources */,
+				FC140774184DD28000A341FB /* LJBaseViewController.m in Sources */,
+				FCD844CB18FCF2E4002AF569 /* LJWriteStep.m in Sources */,
+				FC1701D11848315B005D57CB /* LJAppDelegate.m in Sources */,
+				FC1701CD1848315B005D57CB /* main.m in Sources */,
+				FCE17C6918FD11F900BAC53D /* UIFont+LJFonts.m in Sources */,
+				FC1701D41848315B005D57CB /* LifeJourney.xcdatamodeld in Sources */,
+				FC87516318FCD75A00994C86 /* LJTool.m in Sources */,
+				FCD844D718FCF5D4002AF569 /* LJWriteStepView.m in Sources */,
+				FC01CFBE1854475C002739E1 /* LJStepView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1701D71848315B005D57CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1701EA1848315B005D57CB /* LifeJourneyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC1701E21848315B005D57CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC1701BA1848315B005D57CB /* LifeJourney */;
+			targetProxy = FC1701E11848315B005D57CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC1701C91848315B005D57CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1701CA1848315B005D57CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC1701E61848315B005D57CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1701E71848315B005D57CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC1701EB1848315B005D57CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC1701EC1848315B005D57CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC1701EE1848315B005D57CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LifeJourney/LifeJourney-Prefix.pch";
+				INFOPLIST_FILE = "LifeJourney/LifeJourney-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC1701EF1848315B005D57CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LifeJourney/LifeJourney-Prefix.pch";
+				INFOPLIST_FILE = "LifeJourney/LifeJourney-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC1701F11848315B005D57CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LifeJourney.app/LifeJourney";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LifeJourney/LifeJourney-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LifeJourneyTests/LifeJourneyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC1701F21848315B005D57CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LifeJourney.app/LifeJourney";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LifeJourney/LifeJourney-Prefix.pch";
+				INFOPLIST_FILE = "LifeJourneyTests/LifeJourneyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC1701B61848315B005D57CB /* Build configuration list for PBXProject "LifeJourney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1701EB1848315B005D57CB /* Debug */,
+				FC1701EC1848315B005D57CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1701ED1848315B005D57CB /* Build configuration list for PBXNativeTarget "LifeJourney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1701EE1848315B005D57CB /* Debug */,
+				FC1701EF1848315B005D57CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1701F01848315B005D57CB /* Build configuration list for PBXNativeTarget "LifeJourneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1701F11848315B005D57CB /* Debug */,
+				FC1701F21848315B005D57CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC1701D21848315B005D57CB /* LifeJourney.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC1701D31848315B005D57CB /* LifeJourney.xcdatamodel */,
+			);
+			currentVersion = FC1701D31848315B005D57CB /* LifeJourney.xcdatamodel */;
+			path = LifeJourney.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC1701B31848315B005D57CB /* Project object */;
+}

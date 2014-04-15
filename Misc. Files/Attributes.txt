@@ -1,0 +1,163 @@
+<string>Action maker</string>
+<string>Always right</string>
+<string>Assertive</string>
+<string>Authoritative</string>
+<string>Competitive</string>
+<string>Confident</string>
+<string>Decisive</string>
+<string>Determined</string>
+<string>Direct</string>
+<string>Dominant</string>
+<string>Finisher</string>
+<string>Firm</string>
+<string>Forthright</string>
+<string>Good delegator</string>
+<string>Gritty</string>
+<string>Impatient</string>
+<string>In control</string>
+<string>Independent</string>
+<string>Intolerant</string>
+<string>Judgemental</string>
+<string>Leader</string>
+<string>Likes challenges</string>
+<string>Likes conflict</string>
+<string>Opportunistic</string>
+<string>Organizer</string>
+<string>Outgoing</string>
+<string>Outspoken</string>
+<string>Powerful</string>
+<string>Practical</string>
+<string>Pragmatic</string>
+<string>Proactive</string>
+<string>Problem solver</string>
+<string>Resilient</string>
+<string>Resistive</string>
+<string>Respected</string>
+<string>Results focused</string>
+<string>Self-assured</string>
+<string>Solid</string>
+<string>Self-governing</string>
+<string>Strong willed</string>
+<string>Successful</string>
+<string>Active</string>
+<string>Adventurous</string>
+<string>Bold</string>
+<string>Brash</string>
+<string>Creative</string>
+<string>Disorganised</string>
+<string>Dramatic</string>
+<string>Energetic</string>
+<string>Enthusiastic</string>
+<string>Exciting</string>
+<string>Expressive</string>
+<string>Fast</string>
+<string>Free</string>
+<string>Full of life</string>
+<string>Funny</string>
+<string>Get bored easily</string>
+<string>Group oriented</string>
+<string>Helper</string>
+<string>Idealistic</string>
+<string>Ideas person</string>
+<string>Impetuous</string>
+<string>Impulsive</string>
+<string>Influencing</string>
+<string>Interesting</string>
+<string>Involved</string>
+<string>Likes change</string>
+<string>Likes recognition</string>
+<string>Not detailed</string>
+<string>Open and Friendly</string>
+<string>Optimistic</string>
+<string>People person</string>
+<string>Persuasive</string>
+<string>Positive</string>
+<string>Procrastinator</string>
+<string>Rash</string>
+<string>Restless</string>
+<string>Risk taker</string>
+<string>Rough enough</string>
+<string>Schemer</string>
+<string>Sociable</string>
+<string>Spontaneous</string>
+<string>Accepting</string>
+<string>Accommodating</string>
+<string>Agreeable</string>
+<string>Appreciative</string>
+<string>Broad thinker</string>
+<string>Caring</string>
+<string>Cautious</string>
+<string>Conflict avoider</string>
+<string>Conscientious</string>
+<string>Considerate</string>
+<string>Constant</string>
+<string>Deep thinker</string>
+<string>Dependable</string>
+<string>Easy going</string>
+<string>Fair</string>
+<string>Faithful</string>
+<string>Giving</string>
+<string>Good concentrator</string>
+<string>Guarded</string>
+<string>Holds grudges</string>
+<string>Home body</string>
+<string>Honest</string>
+<string>Kind</string>
+<string>Likes quality</string>
+<string>Listener</string>
+<string>Loyal</string>
+<string>Neighbourly</string>
+<string>Observer</string>
+<string>Open to reason</string>
+<string>Patient</string>
+<string>Pensive</string>
+<string>Quiet</string>
+<string>Reflective</string>
+<string>Resists change</string>
+<string>Respectful</string>
+<string>Safe</string>
+<string>Sensible</string>
+<string>Sensitive</string>
+<string>Sharer</string>
+<string>Stable</string>
+<string>Team player</string>
+<string>Accurate</string>
+<string>Analytical</string>
+<string>Autonomous</string>
+<string>Cautious</string>
+<string>Certain</string>
+<string>Clear thinker</string>
+<string>Complex thinker</string>
+<string>Conscientious</string>
+<string>Correct</string>
+<string>Critical thinker</string>
+<string>Defensive</string>
+<string>Detached</string>
+<string>Diplomatic</string>
+<string>Ethical</string>
+<string>Exact</string>
+<string>Follows rules</string>
+<string>High standards</string>
+<string>Intelligent</string>
+<string>Introspective</string>
+<string>Logical</string>
+<string>Matter-of-fact</string>
+<string>Meticulous</string>
+<string>Obedient</string>
+<string>Orderly</string>
+<string>Overly critical</string>
+<string>Perfectionist</string>
+<string>Persistent</string>
+<string>Pessimistic</string>
+<string>Planner</string>
+<string>Precise</string>
+<string>Principled</string>
+<string>Rational</string>
+<string>Realistic</string>
+<string>Self controlled</string>
+<string>Serious</string>
+<string>Sometimes negative</string>
+<string>Smart</string>
+<string>Steady</string>
+<string>Strong-minded</string>
+<string>Structured</string>
