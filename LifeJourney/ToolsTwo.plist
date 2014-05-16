@@ -47,7 +47,10 @@ awareness.</string>
 				<key>title</key>
 				<string>Activity</string>
 				<key>text</key>
-				<string>The ‘My Attributes’ activity is to help you capture and make explicit some data about you (your attributes). Some of your attributes are part of your perception of your self or self-concept, other attributes you may not be aware of. Reflecting on and documenting your attributes, helps you gather data to consider and explore, revealing a clearer view of yourself and assisting in expanding your self-concept.The following pages contain a list of attributes or characteristics for you to consider.</string>
+				<string>The ‘My Attributes’ activity is to help you capture and make explicit some data about you (your attributes). 
+Some of your attributes are part of your perception of your self or self-concept, other attributes you may not be aware of. Reflecting on and documenting your attributes, helps you gather data to consider and explore, revealing a clearer view of yourself and assisting in expanding your self-concept.
+
+The following pages contain a list of attributes or characteristics for you to consider.</string>
 			</dict>
 			<dict>
 				<key>type</key>
@@ -254,7 +257,25 @@ awareness.</string>
 				<key>title</key>
 				<string>Resillience</string>
 				<key>text</key>
-				<string>resilience |ri&apos;zilyens|noun1 the ability of a substance or object to spring back into shape; elasticity: ...2 the capacity to recover quickly from difficulties; toughness: ... spirit hardness toughness strengthOxford Dictionary – The Concise Oxford Dictionary 6th Ed. 2011ResilienceThe capacity for resilience is useful for living a fulfilled life. Some people are naturally more resilient than others. However, people can learn and build resilience. Resilience is learned in and through challenge. Perhaps challenge bought about by suffering from external sources or through ill-health or injury. Resilience can also be learned through training. When we train our body, mind and emotional worlds we put ourself through challenge or suffering. Pushing the self to extend and expand builds resilience.Many people choose not to take this journey, perhaps they have suffered enough, or maybe they are unaware of the benefits of resilience. They may just be lazy and not seeking change or challenge. It is a normal thing to try to avoid pain and seek pleasure, there are many and varied reasons to avoid suffering. However, the journey to resilience requires a stretching of the self, challenging the self, and movement to change. Avoidance and stagnation will not build resilience, only facing the self, making an internal decision to change and taking steps forward. The journey to resilience can be through a concerted effort or a gentle progression. However, there will be times of struggle as the body, mind, emotional world, self-concept and self-image need to change. Any and all of these parts of the self, at times, will resist change.To obtain resilience, one must take the internal journey to self-awareness. Resilience abides in the conative domain of the mind, the part of us that has to do with will and desire. Our capacity to look inside and observe our responses assists in building self-awareness. It is an internal process of reflecting on how our thinking, emotions and behaviour affect ourself and others. Some helpful methods to greater self-awareness are, observing the self and interactions with others, listening to feedback from others, remaining present, and having an attitude of openness and surrender. It is worthwhile to do your own research and study on topics to do with awareness and resilience.Resilience is formed by creating habits. Strong habits within the self to do with getting up and moving on again after falling or failing. It is valuable to learn the lessons of the failure so as not to repeat the same thing. Using an action / reflection model to evaluate and move on is a useful process.There are many action / reflection models you can use. It may be helpful to record your events and document your learning as this process helps clarify what happened, thus gaining greater depth of learning.Here is an example of an action / reflection model used by smash the sky for evaluating and learning.Action Reflection Learning Model&lt;Insert Picture&gt;</string>
+				<string>resilience |ri&apos;zilyens|
+noun
+1 the ability of a substance or object to spring back into shape; elasticity: ...
+2 the capacity to recover quickly from difficulties; toughness: ... 
+spirit hardness toughness strength
+Oxford Dictionary – The Concise Oxford Dictionary 6th Ed. 2011
+
+
+Resilience
+The capacity for resilience is useful for living a fulfilled life. Some people are naturally more resilient than others. However, people can learn and build resilience. Resilience is learned in and through challenge. Perhaps challenge bought about by suffering from external sources or through ill-health or injury. Resilience can also be learned through training. When we train our body, mind and emotional worlds we put ourself through challenge or suffering. Pushing the self to extend and expand builds resilience.
+Many people choose not to take this journey, perhaps they have suffered enough, or maybe they are unaware of the benefits of resilience. They may just be lazy and not seeking change or challenge. It is a normal thing to try to avoid pain and seek pleasure, there are many and varied reasons to avoid suffering. However, the journey to resilience requires a stretching of the self, challenging the self, and movement to change. Avoidance and stagnation will not build resilience, only facing the self, making an internal decision to change and taking steps forward. 
+The journey to resilience can be through a concerted effort or a gentle progression. However, there will be times of struggle as the body, mind, emotional world, self-concept and self-image need to change. Any and all of these parts of the self, at times, will resist change.
+To obtain resilience, one must take the internal journey to self-awareness. Resilience abides in the conative domain of the mind, the part of us that has to do with will and desire. Our capacity to look inside and observe our responses assists in building self-awareness. It is an internal process of reflecting on how our thinking, emotions and behaviour affect ourself and others. Some helpful methods to greater self-awareness are, observing the self and interactions with others, listening to feedback from others, remaining present, and having an attitude of openness and surrender. It is worthwhile to do your own research and study on topics to do with awareness and resilience.
+Resilience is formed by creating habits. Strong habits within the self to do with getting up and moving on again after falling or failing. It is valuable to learn the lessons of the failure so as not to repeat the same thing. Using an action / reflection model to evaluate and move on is a useful process.
+There are many action / reflection models you can use. It may be helpful to record your events and document your learning as this process helps clarify what happened, thus gaining greater depth of learning.
+Here is an example of an action / reflection model used by smash the sky for evaluating and learning.
+
+Action Reflection Learning Model
+&lt;Insert Picture&gt;</string>
 			</dict>
 			<dict>
 				<key>type</key>
@@ -262,7 +283,10 @@ awareness.</string>
 				<key>title</key>
 				<string>Activity</string>
 				<key>text</key>
-				<string>Use the Action/Reflection model to build your resillience.1. Choose a habit to change2. Document your plan for changing your habit.3. Regularly document your progrss using the Action/Reflection model.</string>
+				<string>Use the Action/Reflection model to build your resillience.
+1. Choose a habit to change
+2. Document your plan for changing your habit.
+3. Regularly document your progrss using the Action/Reflection model.</string>
 			</dict>
 			<dict>
 				<key>type</key>
@@ -287,7 +311,8 @@ awareness.</string>
 				<string>Implement plan</string>
 				<key>questions</key>
 				<array>
-					<string>a. Take actionb. Record what happens as you implement your plan.</string>
+					<string>a. Take action
+b. Record what happens as you implement your plan.</string>
 				</array>
 			</dict>
 			<dict>
@@ -315,6 +340,97 @@ awareness.</string>
 					<string>a. Consider how you are building your resillience. </string>
 					<string>b. Document your learning</string>
 					<string>c. List the actions you will take based on your learning, as replan and continue.</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>When I Was Young</string>
+		<key>steps</key>
+		<array>
+			<dict>
+				<key>type</key>
+				<string>1</string>
+				<key>title</key>
+				<string>Introduction</string>
+				<key>text</key>
+				<string>re·flec·tion n
+3.	careful thought, especially the process of reconsidering previous actions, events, or decisions
+4.	an idea or thought, especially one produced by careful consideration of something
+5.	a clear indication or the result of something … 
+Encarta® World English Dictionary © 1999 Microsoft Corporation.
+
+When I was young’ is a reflective activity to help in capturing some important moments in life.  Capturing the memories that helped shape the way a person views themself provides evidence of perceptions that reveal habits, assumptions and ways of being. These are helpful to examine to increase self-awareness and to consider changing if they are barriers to getting what you want and doing your dreams.</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>1</string>
+				<key>title</key>
+				<string>Activity</string>
+				<key>text</key>
+				<string>1. Use the ‘When I was young’ reflection sheets to capture some memories of your life.
+2. From your sheets, highlight 3 reflections that raised strong emotions or memory for you.
+3. Complete the reflection activities (Below) for each of your 3 highlighted reflections.</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>4</string>
+				<key>title</key>
+				<string>Reflections on Events</string>
+				<key>text</key>
+				<string>List a time when you:</string>
+				<key>questions</key>
+				<array>
+					<string>1. Went on a great holiday</string>
+					<string>2. Received a great present</string>
+					<string>3. Won something</string>
+					<string>4. Received an injury or sickness</string>
+					<string>5. Went far away</string>
+					<string>6. Achieved a goal</string>
+					<string>7. Made a new friend</string>
+					<string>8. Lost a friend</string>
+					<string>9. Went to an important event</string>
+					<string>10. Had to do something you didn’t want</string>
+					<string>11. Had good fun with your friends</string>
+					<string>12. Had good fun with your family</string>
+					<string>13. Did something enjoyable on your own</string>
+					<string>14. Made friends with an animal</string>
+					<string>15. Faced a fear</string>
+					<string>16. Gave up</string>
+					<string>17. Found something</string>
+					<string>18. Had a dream you remember</string>
+					<string>19. Had a bad day</string>
+				</array>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>4</string>
+				<key>title</key>
+				<string>Reflections on Emotions</string>
+				<key>text</key>
+				<string>List a time when you felt:</string>
+				<key>questions</key>
+				<array>
+					<string>1. Happy</string>
+					<string>2. Sad</string>
+					<string>3. Excited</string>
+					<string>4. Naughty</string>
+					<string>5. Angry</string>
+					<string>6. Loved</string>
+					<string>7. Scared</string>
+					<string>8. Guilty</string>
+					<string>9. Content</string>
+					<string>10. Disappointed</string>
+					<string>11. Embarrassed</string>
+					<string>12. Hurt</string>
+					<string>13. Proud</string>
+					<string>14. Misunderstood</string>
+					<string>15. Jealous</string>
+					<string>16. Inspired</string>
+					<string>17. Safe</string>
+					<string>18. Shy</string>
+					<string>19. Stressed</string>
 				</array>
 			</dict>
 		</array>

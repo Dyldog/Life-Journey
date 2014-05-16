@@ -1,0 +1,20 @@
+1.	Went on a great holiday
+2.	Received a great present
+3.	Won something
+4.	Received an injury or sickness
+5.	Went far away
+6.	Achieved a goal
+7.	Made a new friend
+8.	Lost a friend
+9.	Went to an important event
+10.	Had to do something you didn’t want
+11.	Had good fun with your friends
+12.	Had good fun with your family
+13.	Did something enjoyable on your own
+14.	Made friends with an animal
+15.	Faced a fear
+16.	Gave up
+17.	Found something 
+18.	Had a dream you remember
+19.	Had a bad day
+20.	Had a good day

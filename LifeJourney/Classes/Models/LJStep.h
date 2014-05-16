@@ -13,6 +13,7 @@ typedef enum {Read = 1, Write, SelectList} LJStepType;
 
 @interface LJStep : NSObject
 
+@property (nonatomic, strong) LJTool *tool;
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSString *text;
 

@@ -1,0 +1,19 @@
+<string>1. Went on a great holiday</string>
+<string>2. Received a great present</string>
+<string>3. Won something</string>
+<string>4. Received an injury or sickness</string>
+<string>5. Went far away</string>
+<string>6. Achieved a goal</string>
+<string>7. Made a new friend</string>
+<string>8. Lost a friend</string>
+<string>9. Went to an important event</string>
+<string>10. Had to do something you didn’t want</string>
+<string>11. Had good fun with your friends</string>
+<string>12. Had good fun with your family</string>
+<string>13. Did something enjoyable on your own</string>
+<string>14. Made friends with an animal</string>
+<string>15. Faced a fear</string>
+<string>16. Gave up</string>
+<string>17. Found something</string>
+<string>18. Had a dream you remember</string>
+<string>19. Had a bad day</string>
