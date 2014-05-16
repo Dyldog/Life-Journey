@@ -41,13 +41,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LifeJourney/Classes/Views/LJSelectListStepView.m"
-            timestampString = "419247650.902895"
+            filePath = "LifeJourney/Classes/View Controllers/LJStepViewController.m"
+            timestampString = "421905995.218415"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "-tableView:numberOfRowsInSection:"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "-viewWillLayoutSubviews"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -58,12 +58,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LifeJourney/Classes/View Controllers/LJStepViewController.m"
-            timestampString = "419247852.269487"
+            timestampString = "421906314.164014"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
-            landmarkName = "-viewWillLayoutSubviews"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "-viewDidLayoutSubviews"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

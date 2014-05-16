@@ -22,6 +22,8 @@
         _tableView.frame = self.bounds;
         _tableView.dataSource = self;
         _tableView.delegate = self;
+        _tableView.scrollEnabled = NO;
+        _tableView.userInteractionEnabled = NO;
         [_tableView reloadData];
         [self addSubview:_tableView];
     }
@@ -31,7 +33,8 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-    self.tableView.frame = CGRectMake(0, 0, self.$width, self.tableView.contentSize.height);
+    self.tableView.frame = CGRectMake(0, 0, self.$width, self.tableView.rowHeight * [self tableView:self.tableView numberOfRowsInSection:0]);
+    self.$height = self.tableView.$bottom;
 }
 
 - (void) sizeToFit {
@@ -74,6 +77,10 @@
     [tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
     
     self.stepViewController.continueButtonHidden = self.selectedItems.count < self.step.amount;
+}
+
+- (NSNumber *) viewHeight {
+    return @(self.tableView.$height);
 }
 
 @end

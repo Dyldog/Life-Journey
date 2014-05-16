@@ -14,4 +14,6 @@
 @property (nonatomic, strong) NSMutableArray *selectedItems;
 @property (nonatomic, strong) LJSelectListStep *step;
 
+- (NSNumber *) viewHeight;
+
 @end

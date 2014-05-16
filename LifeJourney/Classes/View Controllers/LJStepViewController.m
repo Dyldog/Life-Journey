@@ -63,12 +63,27 @@
     
     self.stepView.$origin = CGPointMake(10, 10);
     [self.stepView sizeToFit];
+    [self.stepView setNeedsLayout];
+    [self.stepView layoutIfNeeded];
     
     if ([self.continueButton isKindOfClass:[UIButton class]]) {
         [self.continueButton set$y: self.stepView.$bottom + 10];
     }
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
     
-    [self.scrollView setContentSize:CGSizeMake(self.view.$width, [[self.scrollView.subviews valueForKeyPath:@"@max.$bottom"] intValue])];
+    int stepHeight = [[self.scrollView.subviews valueForKeyPath:@"@max.$bottom"] intValue];
+    if ([self.stepView respondsToSelector:@selector(viewHeight)]) {
+        stepHeight = [[self.stepView performSelector:@selector(viewHeight)] intValue];
+    }
+    
+    [self.scrollView setContentSize:CGSizeMake(self.view.$width, stepHeight)];
+}
+
+- (void) viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
 }
 
 - (void) nextButtonTapped {

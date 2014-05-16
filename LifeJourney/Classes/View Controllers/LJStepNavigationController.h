@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LJStepNavigationController : UINavigationController {
+@interface LJStepNavigationController : UINavigationController <UINavigationControllerDelegate> {
     int _currentIdx;
     UIViewController *_previousViewController;
 }
