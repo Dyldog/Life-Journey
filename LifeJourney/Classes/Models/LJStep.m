@@ -13,7 +13,8 @@
 + (id) stepWithDictionary:(NSDictionary *)stepDict {
     Class stepClass = [self stepClassForInt:[stepDict[@"type"] intValue]];
     LJStep *step = [[stepClass alloc] initWithDictionary:stepDict];
-    
+    step.title = stepDict[@"title"];
+    step.text = stepDict[@"text"];
     return step;
 }
 

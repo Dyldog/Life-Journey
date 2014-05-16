@@ -47,7 +47,7 @@ awareness.</string>
 				<key>title</key>
 				<string>Activity</string>
 				<key>text</key>
-				<string>Text goes here. Text goes here. Text goes here. Text goes here. Text goes here. Text goes here. Text goes here. Text goes here. Text goes here. Text goes here. Text goes here.</string>
+				<string>The ‘My Attributes’ activity is to help you capture and make explicit some data about you (your attributes). Some of your attributes are part of your perception of your self or self-concept, other attributes you may not be aware of. Reflecting on and documenting your attributes, helps you gather data to consider and explore, revealing a clearer view of yourself and assisting in expanding your self-concept.The following pages contain a list of attributes or characteristics for you to consider.</string>
 			</dict>
 			<dict>
 				<key>type</key>
@@ -240,6 +240,82 @@ awareness.</string>
 				<string></string>
 				<key>text</key>
 				<string>Document how you feel about each of the 7 attributes.</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Resillience</string>
+		<key>steps</key>
+		<array>
+			<dict>
+				<key>type</key>
+				<string>1</string>
+				<key>title</key>
+				<string>Resillience</string>
+				<key>text</key>
+				<string>resilience |ri&apos;zilyens|noun1 the ability of a substance or object to spring back into shape; elasticity: ...2 the capacity to recover quickly from difficulties; toughness: ... spirit hardness toughness strengthOxford Dictionary – The Concise Oxford Dictionary 6th Ed. 2011ResilienceThe capacity for resilience is useful for living a fulfilled life. Some people are naturally more resilient than others. However, people can learn and build resilience. Resilience is learned in and through challenge. Perhaps challenge bought about by suffering from external sources or through ill-health or injury. Resilience can also be learned through training. When we train our body, mind and emotional worlds we put ourself through challenge or suffering. Pushing the self to extend and expand builds resilience.Many people choose not to take this journey, perhaps they have suffered enough, or maybe they are unaware of the benefits of resilience. They may just be lazy and not seeking change or challenge. It is a normal thing to try to avoid pain and seek pleasure, there are many and varied reasons to avoid suffering. However, the journey to resilience requires a stretching of the self, challenging the self, and movement to change. Avoidance and stagnation will not build resilience, only facing the self, making an internal decision to change and taking steps forward. The journey to resilience can be through a concerted effort or a gentle progression. However, there will be times of struggle as the body, mind, emotional world, self-concept and self-image need to change. Any and all of these parts of the self, at times, will resist change.To obtain resilience, one must take the internal journey to self-awareness. Resilience abides in the conative domain of the mind, the part of us that has to do with will and desire. Our capacity to look inside and observe our responses assists in building self-awareness. It is an internal process of reflecting on how our thinking, emotions and behaviour affect ourself and others. Some helpful methods to greater self-awareness are, observing the self and interactions with others, listening to feedback from others, remaining present, and having an attitude of openness and surrender. It is worthwhile to do your own research and study on topics to do with awareness and resilience.Resilience is formed by creating habits. Strong habits within the self to do with getting up and moving on again after falling or failing. It is valuable to learn the lessons of the failure so as not to repeat the same thing. Using an action / reflection model to evaluate and move on is a useful process.There are many action / reflection models you can use. It may be helpful to record your events and document your learning as this process helps clarify what happened, thus gaining greater depth of learning.Here is an example of an action / reflection model used by smash the sky for evaluating and learning.Action Reflection Learning Model&lt;Insert Picture&gt;</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>1</string>
+				<key>title</key>
+				<string>Activity</string>
+				<key>text</key>
+				<string>Use the Action/Reflection model to build your resillience.1. Choose a habit to change2. Document your plan for changing your habit.3. Regularly document your progrss using the Action/Reflection model.</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>4</string>
+				<key>title</key>
+				<string>Plan</string>
+				<key>text</key>
+				<string>Formulate your plan</string>
+				<key>questions</key>
+				<array>
+					<string>a. List your habit to create or change</string>
+					<string>b. Write the actions you will take to change the habit.</string>
+					<string>c. List the barriers you may face.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>4</string>
+				<key>title</key>
+				<string>Do</string>
+				<key>text</key>
+				<string>Implement plan</string>
+				<key>questions</key>
+				<array>
+					<string>a. Take actionb. Record what happens as you implement your plan.</string>
+				</array>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>4</string>
+				<key>title</key>
+				<string>Reflect</string>
+				<key>text</key>
+				<string>Review and Reflect</string>
+				<key>questions</key>
+				<array>
+					<string>a. Record successes and failures</string>
+					<string>b. Document issues and concerns</string>
+				</array>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>4</string>
+				<key>title</key>
+				<string>Theorise</string>
+				<key>text</key>
+				<string>Document learning</string>
+				<key>questions</key>
+				<array>
+					<string>a. Consider how you are building your resillience. </string>
+					<string>b. Document your learning</string>
+					<string>c. List the actions you will take based on your learning, as replan and continue.</string>
+				</array>
 			</dict>
 		</array>
 	</dict>

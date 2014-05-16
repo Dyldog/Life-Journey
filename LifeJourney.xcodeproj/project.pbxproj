@@ -27,10 +27,11 @@
 		FC1701E01848315B005D57CB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1701C41848315B005D57CB /* CoreData.framework */; };
 		FC1701E81848315B005D57CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC1701E61848315B005D57CB /* InfoPlist.strings */; };
 		FC1701EA1848315B005D57CB /* LifeJourneyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1701E91848315B005D57CB /* LifeJourneyTests.m */; };
+		FC2A942E1925CD94001DECDB /* LJWriteMultipleStep.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2A942D1925CD94001DECDB /* LJWriteMultipleStep.m */; };
+		FC2A94311925CDA8001DECDB /* LJWriteMultipleStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2A94301925CDA8001DECDB /* LJWriteMultipleStepView.m */; };
 		FC63188E18854C8700DC2DB4 /* LJToolSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC63188D18854C8700DC2DB4 /* LJToolSelectViewController.m */; };
 		FC87516318FCD75A00994C86 /* LJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FC87516218FCD75A00994C86 /* LJTool.m */; };
 		FC87516618FCD79400994C86 /* LJStep.m in Sources */ = {isa = PBXBuildFile; fileRef = FC87516518FCD79400994C86 /* LJStep.m */; };
-		FCCEAA7B185429E80036601E /* Tools.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCCEAA7A185429E80036601E /* Tools.plist */; };
 		FCD844C318FCE660002AF569 /* ToolTemplates.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCD844C218FCE660002AF569 /* ToolTemplates.plist */; };
 		FCD844C518FCE6FD002AF569 /* ToolsTwo.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCD844C418FCE6FD002AF569 /* ToolsTwo.plist */; };
 		FCD844C818FCF2D9002AF569 /* LJReadStep.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD844C718FCF2D9002AF569 /* LJReadStep.m */; };
@@ -83,13 +84,16 @@
 		FC1701E51848315B005D57CB /* LifeJourneyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LifeJourneyTests-Info.plist"; sourceTree = "<group>"; };
 		FC1701E71848315B005D57CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC1701E91848315B005D57CB /* LifeJourneyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeJourneyTests.m; sourceTree = "<group>"; };
+		FC2A942C1925CD94001DECDB /* LJWriteMultipleStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJWriteMultipleStep.h; sourceTree = "<group>"; };
+		FC2A942D1925CD94001DECDB /* LJWriteMultipleStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJWriteMultipleStep.m; sourceTree = "<group>"; };
+		FC2A942F1925CDA8001DECDB /* LJWriteMultipleStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LJWriteMultipleStepView.h; path = Views/LJWriteMultipleStepView.h; sourceTree = "<group>"; };
+		FC2A94301925CDA8001DECDB /* LJWriteMultipleStepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LJWriteMultipleStepView.m; path = Views/LJWriteMultipleStepView.m; sourceTree = "<group>"; };
 		FC63188C18854C8700DC2DB4 /* LJToolSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJToolSelectViewController.h; sourceTree = "<group>"; };
 		FC63188D18854C8700DC2DB4 /* LJToolSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJToolSelectViewController.m; sourceTree = "<group>"; };
 		FC87516118FCD75A00994C86 /* LJTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTool.h; sourceTree = "<group>"; };
 		FC87516218FCD75A00994C86 /* LJTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTool.m; sourceTree = "<group>"; };
 		FC87516418FCD79400994C86 /* LJStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJStep.h; sourceTree = "<group>"; };
 		FC87516518FCD79400994C86 /* LJStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJStep.m; sourceTree = "<group>"; };
-		FCCEAA7A185429E80036601E /* Tools.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tools.plist; sourceTree = "<group>"; };
 		FCD844C218FCE660002AF569 /* ToolTemplates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToolTemplates.plist; sourceTree = "<group>"; };
 		FCD844C418FCE6FD002AF569 /* ToolsTwo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToolsTwo.plist; sourceTree = "<group>"; };
 		FCD844C618FCF2D9002AF569 /* LJReadStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJReadStep.h; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 				FCD844D618FCF5D4002AF569 /* LJWriteStepView.m */,
 				FCD844DB18FD0170002AF569 /* LJSelectListStepView.h */,
 				FCD844DC18FD0170002AF569 /* LJSelectListStepView.m */,
+				FC2A942F1925CDA8001DECDB /* LJWriteMultipleStepView.h */,
+				FC2A94301925CDA8001DECDB /* LJWriteMultipleStepView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -245,7 +251,6 @@
 				FC1701C91848315B005D57CB /* InfoPlist.strings */,
 				FC1701CC1848315B005D57CB /* main.m */,
 				FC1701CE1848315B005D57CB /* LifeJourney-Prefix.pch */,
-				FCCEAA7A185429E80036601E /* Tools.plist */,
 				FCD844C418FCE6FD002AF569 /* ToolsTwo.plist */,
 				FCD844C218FCE660002AF569 /* ToolTemplates.plist */,
 			);
@@ -283,6 +288,8 @@
 				FCD844CA18FCF2E4002AF569 /* LJWriteStep.m */,
 				FCD844CC18FCF314002AF569 /* LJSelectListStep.h */,
 				FCD844CD18FCF314002AF569 /* LJSelectListStep.m */,
+				FC2A942C1925CD94001DECDB /* LJWriteMultipleStep.h */,
+				FC2A942D1925CD94001DECDB /* LJWriteMultipleStep.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -363,7 +370,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCCEAA7B185429E80036601E /* Tools.plist in Resources */,
 				FC1701CB1848315B005D57CB /* InfoPlist.strings in Resources */,
 				FCD844C318FCE660002AF569 /* ToolTemplates.plist in Resources */,
 				FCD844C518FCE6FD002AF569 /* ToolsTwo.plist in Resources */,
@@ -398,9 +404,11 @@
 				FCD844DA18FCFA19002AF569 /* LJStepNavigationController.m in Sources */,
 				FC87516618FCD79400994C86 /* LJStep.m in Sources */,
 				FC140774184DD28000A341FB /* LJBaseViewController.m in Sources */,
+				FC2A94311925CDA8001DECDB /* LJWriteMultipleStepView.m in Sources */,
 				FCD844CB18FCF2E4002AF569 /* LJWriteStep.m in Sources */,
 				FC1701D11848315B005D57CB /* LJAppDelegate.m in Sources */,
 				FC1701CD1848315B005D57CB /* main.m in Sources */,
+				FC2A942E1925CD94001DECDB /* LJWriteMultipleStep.m in Sources */,
 				FCE17C6918FD11F900BAC53D /* UIFont+LJFonts.m in Sources */,
 				FC1701D41848315B005D57CB /* LifeJourney.xcdatamodeld in Sources */,
 				FC87516318FCD75A00994C86 /* LJTool.m in Sources */,

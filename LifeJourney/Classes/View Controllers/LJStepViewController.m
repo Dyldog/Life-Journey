@@ -18,7 +18,7 @@
     if (self = [super init]) {
         _step = step;
         _scrollView = [[UIScrollView alloc] init];
-        _stepView = [LJStepView stepViewWithSize:CGSizeZero forStep:step];
+        _stepView = [LJStepView stepViewWithSize:CGSizeMake(320, 0) forStep:step];
         _stepView.stepViewController = self;
         
         if ([_step isKindOfClass:[LJSelectListStep class]]) {

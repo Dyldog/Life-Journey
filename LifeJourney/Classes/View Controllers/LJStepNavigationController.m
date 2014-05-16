@@ -25,8 +25,8 @@
 }
 
 - (void) nextStep {
-    if (self.navigationController.viewControllers.count < self.tool.steps.count) {
-        LJStepViewController *stepViewController = [[LJStepViewController alloc] initWithStep:self.tool.steps[self.navigationController.viewControllers.count]];
+    if (self.navigationController.viewControllers.count - 1 < self.tool.steps.count) {
+        LJStepViewController *stepViewController = [[LJStepViewController alloc] initWithStep:self.tool.steps[self.navigationController.viewControllers.count - 1]];
         stepViewController.stepNavigationController = self;
         
         [_navigationController pushViewController:stepViewController animated:YES];
